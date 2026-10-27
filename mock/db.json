@@ -1,0 +1,14 @@
+{
+  "users": [
+    { "id": "1", "username": "sofia", "password": "123", "name": "София" },
+    { "id": "2", "username": "admin", "password": "admin", "name": "Администратор" }
+  ],
+  "tags": [
+    { "id": "1", "name": "Учеба", "color": "blue" },
+    { "id": "2", "name": "Работа", "color": "red" }
+  ],
+  "todos": [
+    { "id": "1", "userId": "1", "title": "Сделать Практику 7", "completed": false, "tagId": "1", "createdAt": 1700000000000 },
+    { "id": "2", "userId": "1", "title": "Выучить json-server", "completed": true, "tagId": "1", "createdAt": 1700000001000 }
+  ]
+}
